@@ -178,7 +178,7 @@ abstract class __RowContainerWidgetStateWithChangeKeepAlive
 
       _isFocusedCurrentRow = update<bool?>(
         _isFocusedCurrentRow,
-        _isCurrentRow! && widget.stateManager.hasFocus,
+        _isCurrentRow!
       );
 
       _rowColor = update<Color?>(_rowColor, _getRowColor());
